@@ -9,7 +9,8 @@
     "git-pull": "make git-pull",
     "git-commit": "make git-commit",
     "git-revert": "make git-revert",
-    "npm-publish": "make npm-publish"
+    "npm-publish": "make npm-publish",
+    "deploy": "gulp watchTask"
   },
   "keywords": [
     "ws2811",
@@ -31,5 +32,10 @@
   "dependencies": {
     "nan": "^2.14.0"
   },
-  "homepage": "https://github.com/meg768/rpi-ws281x#readme"
+  "homepage": "https://github.com/meg768/rpi-ws281x#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-run-command": "0.0.10",
+    "gulp-ssh": "^0.7.0"
+  }
 }
